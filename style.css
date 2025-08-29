@@ -2,83 +2,85 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 body{
-    font-family:  'Roboto', 'Arial', 'Verdana', sans-serif;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    background: #fff;
 }
-.header{
-    height: 35em;
+header{
+    padding: 10px 30px;
     background: #1F2937;
-    padding: 20px;
+    height: 60vh;
 }
-.nav-items{
-    justify-content: space-evenly;
+nav{
     display: flex;
-    gap: 20px;
+    justify-content: space-around;
+    margin: 30px 50px;
 }
 ul{
     display: flex;
-    list-style: none;
-    gap: 30px;
+    gap: 40px;
 }
 li a{
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
 }
-.hero-image  img{
-width: 400px;
-height: auto;
-}
-.header-content{
+.hero-section{
     display: flex;
+    margin-top: 100px;
     justify-content: center;
     gap: 60px;
 }
-.hero-text{
-    margin-top: 60px;
+.hero-section img{
     width: 500px;
-    color: #fff;
-    padding: 16px;
-}
-.hero-image img{
-    margin-top: 60px;
-}
-.hero-text p{
-    margin-top: 30px;
-    font-size: 18px;
-}
-.hero-text h2{
-    margin-top: 20px;
-}
-button{
-    margin-top: 8px;
-    padding: 8px 20px;
-    cursor: pointer;
-    background: #ffa500;
-    color: #fff;
-    border: none;
+    height: auto;
+    border: 1px solid #fff;
     border-radius: 10px;
-}
-h1{
-    font-size: 48px;
+
 }
 h1 span{
     color: #ffa500;
 }
-.info-section{
+.text{
+    width: 600px;
+}
+.text h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 900px;
+    margin-bottom: 20px;
+}
+.text p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.text a{
+    padding: 10px 30px;
+    font-size: 18px;
+    background: #3882f6;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+h2{
     text-align: center;
-    margin-top: 60px;
-    font-size: 38px;
-    font-weight: 900;
+    font-size: 36px;
+    margin-top: 30px;
+}
+h2 span{
+    color: #ffa500;
+}
+h2 a{
+    text-decoration: none;
 }
 .card-container{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin-top: 50px;
-    padding: 50px;
+    gap: 60px;
+    margin-top: 40px;
+    margin-bottom: 300px;
 }
 .card{
     width: 300px;
@@ -87,11 +89,63 @@ h1 span{
 .card h3{
     text-align: center;
     color: #ffa500;
-    margin-top: 16px;
+    margin-bottom: 20px;
 }
 .card p{
     text-align: center;
-    margin-top: 16px;
+     text-wrap: balance;
+
 }
-
-
+.card img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #ffa500;
+    margin-bottom: 20px;
+}
+.testimonials-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EFE7EB;
+    padding: 50px;
+}
+.testimonials-container p{
+    width: 800px;
+    font-size: 36px;
+}
+.cta-container{
+    display: flex;
+    justify-content: space-around;
+    background: #3882f6;
+    align-items: center;
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+.cta-container h3{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.cta-button a{
+    padding: 5px 25px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.cta-container p{
+    color: #fff;
+}
+.name{
+    margin-left: 500px;
+    font-weight: bold;
+}
+.footer{
+    background: #1F2937;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
